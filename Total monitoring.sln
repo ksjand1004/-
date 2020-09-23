@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Total monitoring", "Total monitoring\Total monitoring.csproj", "{32B64011-63F5-42F9-A4F4-2AA044BE5E1E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2D50E3F2-98FE-4BF9-BEE3-A20F5ABC1058} = {2D50E3F2-98FE-4BF9-BEE3-A20F5ABC1058}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmithLibrary", "..\..\연습\ISSAC\ISSAC\SmithLibrary\SmithLibrary\SmithLibrary.csproj", "{2D50E3F2-98FE-4BF9-BEE3-A20F5ABC1058}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32B64011-63F5-42F9-A4F4-2AA044BE5E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B64011-63F5-42F9-A4F4-2AA044BE5E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B64011-63F5-42F9-A4F4-2AA044BE5E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B64011-63F5-42F9-A4F4-2AA044BE5E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D50E3F2-98FE-4BF9-BEE3-A20F5ABC1058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D50E3F2-98FE-4BF9-BEE3-A20F5ABC1058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D50E3F2-98FE-4BF9-BEE3-A20F5ABC1058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D50E3F2-98FE-4BF9-BEE3-A20F5ABC1058}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F436FF3-BFA0-40FB-8FC7-C6F82496E838}
+	EndGlobalSection
+EndGlobal
